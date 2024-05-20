@@ -1,0 +1,100 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+body {
+    background-color: aquamarine;
+    overflow: hidden;
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.header {
+    width: 800px;
+    height: 200px;
+    color: white;
+    background-color: rgba(0, 236, 4, 0.677);
+    text-align: center;
+    line-height: 200px;
+    font-weight: 700;
+}
+
+.menu {
+    width: 800px;
+    height: 50px;
+    background-color: firebrick;
+    margin-top: 5px;
+    font-weight: 700;
+}
+
+.menu ul li {
+    margin-left: 25px;
+}
+
+.menu ul li a {
+    /* width: 100px;
+    height: 50px; */
+    color: white;
+    display: block;
+    text-align: center;
+    line-height: 50px;
+    font-weight: 700;
+    float: left;
+    padding-right: 30px;
+    margin-left: 50px;
+}
+
+.main {
+    width: 700px;
+    height: 250px;
+    color: black;
+    background-color: rgb(80, 138, 255);
+    padding: 20px 50px;
+    margin-top: 5px;
+}
+
+p {
+    padding: 10px 0px;
+}
+
+.footer {
+    width: 790px;
+    height: 40px;
+    background-color: gold;
+    text-align: center;
+    padding: 5px;
+    margin-top: 5px;
+    line-height: 25px;
+    font-weight: bold;
+}
+
+
+.add {
+    animation-delay: 2s;
+}
+
+.again {
+    animation-iteration-count: 2;
+}
+
+.one {
+    animation-duration: 3;
+}
+
+.second {
+    animation-duration: 4;
+}
+
+.third {
+    animation-duration: 5;
+}
+
+.fourth {
+    animation-duration: 6;
+}
